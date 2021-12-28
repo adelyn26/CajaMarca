@@ -1,0 +1,95 @@
+
+.sospechosos{
+    border: 0px;
+    background-color: rgb(255, 187, 0) !important;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    width: 80%;
+    margin-left: 7%;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sospechosos > p{
+    margin-top: -12%;
+    margin-left: 80%;
+    text-align: right;
+}
+
+.confirmados{
+    margin-left: 7%;
+    width: 80%;
+    border: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.confirmados p{
+    margin-top: -12%;
+    margin-left: 80%;
+    color: red;
+    text-align: right;
+}
+
+.descartados{
+    border: 0px;
+    margin-top: -5%;
+    margin-left: 7%;
+    width: 80%;
+    border: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.descartados p{
+    margin-top: -12%;
+    margin-left: 80%;
+    color: rgb(125, 206, 3); 
+    text-align: right;
+}
+
+.fallecidos{
+    border: 0px;
+    border: 0px;
+    margin-top: -5%;
+    margin-left: 7%;
+    width: 80%;
+    border: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fallecidos p{
+    margin-top: -12%;
+    margin-left: 80%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+}
+
+.confirmados .badge{
+    margin-top: -12%;
+    margin-left: 80%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    float:right;
+}
+
+.descartados .badge{
+    margin-top: -12%;
+    margin-left: 80%;
+    text-align: center;
+    background-color:rgb(5, 160, 231);
+    color: white;
+    border-radius: 4px;
+    float:right;
+}
+
+.fallecidos .badge{
+    margin-top: -12%;
+    margin-left: 80%;
+    text-align: center;
+    background-color:rgb(7, 7, 7);
+    color: white;
+    border-radius: 4px;
+    float:right;
+}
+
